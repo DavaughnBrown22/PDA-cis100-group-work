@@ -207,8 +207,9 @@ def game3():
                             print("You have additionally earned 75 points")
                             upvictim_points = victim_points + 75
                             print("Your total points now stands at", upvictim_points, "points")
-                            break
                             print("You have beated the game and has escaped!!! would care for another dance", victim.name)
+                            break
+                            
 
                 elif mode == 'Medium' or mode == 'm':
                     # The range in which you guess from
@@ -245,8 +246,9 @@ def game3():
                             print("You have additionally earned 105 points")
                             upvictim_points = victim_points + 105
                             print("Your total points now stands at", upvictim_points, "points")
-                            break
                             print("You have beated the game and has escaped!!! would care for another dance", victim.name)
+                            break
+                            
                 elif mode == 'Hard' or mode == 'h':
                     # The range in which you guess from
                     monster = (random.randint(1, 35))
@@ -282,8 +284,9 @@ def game3():
                             print("You have additionally earned 250 points")
                             upvictim_points = victim_points + 250
                             print("Your total points now stands at", upvictim_points, "points")
-                            break
                             print("You have beated the game and has escaped!!! would care for another dance", victim.name)
+                            break
+                            
 
             input("Press enter to continue ")
             result = input("Did you win or lose? (w/l): ")
